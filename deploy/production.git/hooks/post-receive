@@ -1,0 +1,4 @@
+#!/bin/sh
+GIT_WORK_TREE="G:/NCSU-Material-full/Spring 2018/CSC-519/Workshop-2/deploy/production-www" git checkout -f
+echo "Pushed to Production"
+cd "G:/NCSU-Material-full/Spring 2018/CSC-519/Workshop-2/deploy/production-www" && npm install
